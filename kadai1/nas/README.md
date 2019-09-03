@@ -5,7 +5,7 @@
 ## How to use
 
 ```go
-$ go get github.com/gopherdojo/dojo7/kadai1/cmd/imachan
+$ go get github.com/gopherdojo/dojo7/kadai1/nas/cmd/imachan
 $ imachan foo.jpg
 success: foo.jpg -> foo.png
 ```
