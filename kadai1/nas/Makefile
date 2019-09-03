@@ -30,6 +30,6 @@ analyze: ## do static code analysis
 remove: ## remove binary
 	rm -f ./${BINARYNAME}
 
-.PHONY: deploy
-deploy: remove clean test analyze build ## run 'build' with 'remove', 'clean', 'test', 'analyze' and 'build'
-
+.PHONY: all
+all: remove clean test analyze build ## run 'build' with 'remove', 'clean', 'test' and 'analyze'
+	@echo "----------------------------------------\n最後に go.mod のパスを修正するの忘れない\n----------------------------------------"
